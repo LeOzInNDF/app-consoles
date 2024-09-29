@@ -11,7 +11,7 @@ export default function Especificacoes (){
   return (
 <View>
   <Text style={estilos.titulo}>Especificações Técnicas</Text>
-  <Text style={estilos.conteudo}>Confira a seguir as especificações técnicas do Playstation, lançado em 1994</Text>
+  <Text style={[estilos.conteudo, estilos.containerScroll]}>Confira a seguir as especificações técnicas do Playstation, lançado em 1994</Text>
 
 
   <View style={estilos.boxDados}>
@@ -38,7 +38,8 @@ export default function Especificacoes (){
 
    <View style={[estilos.card, estilos.corPlaystation]}>
     <Image style={estilos.icone} source={hdd}></Image>
-    <Text style={estilos.cardTexto}>Drive de CD-ROM - 660 MB / disco</Text>
+    <Text style={estilos.cardTexto}>Drive de CD-ROM</Text>
+    <Text style={estilos.cardTexto}> - 660 MB / disco</Text>
     </View>
     </View>
     </View>
